@@ -1,6 +1,6 @@
 import tkinter
-from time import strftime
 from tkinter.ttk import *
+from time import strftime
 
 
 root = tkinter.Tk()
