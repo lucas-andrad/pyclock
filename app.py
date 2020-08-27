@@ -11,7 +11,7 @@ def clock():
     label.config(text=hour)
     label.after(1000, clock)
 
-label = Label(root, font=("Helvetica", 60), background="#000", foreground="#00FF04")
+label = Label(root, font=("Arial", 50), background="#000", foreground="#00FF04")
 label.pack(anchor="center")
 
 clock()
