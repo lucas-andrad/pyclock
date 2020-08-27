@@ -9,3 +9,7 @@ def clock():
     hour = strftime("%H:%M:%S")
     label.config(text=hour)
     label.after(1000, hour)
+
+label = Label(root, font=("Helvetica", 60), background="#000", foreground="#00FF04")
+label.pack(anchor="center")
+
